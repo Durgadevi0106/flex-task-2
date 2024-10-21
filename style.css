@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    border: 2px solid;
+    font-size: 2.1rem;
+    display: flex;
+}
+.flex-child1{
+    background-color: burlywood;
+    flex-basis: 100px;
+}
+.flex-child2{
+    background-color: palevioletred;
+    flex-basis: 200px;
+}
+.flex-child3{
+    background-color: gray;
+    flex-basis: auto;
+}
